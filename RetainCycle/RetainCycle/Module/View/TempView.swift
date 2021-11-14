@@ -25,7 +25,7 @@ class TempView: UIView {
 	
 	// MARK: - Properties
 	
-	var delegate: TempViewDelegate?
+	weak var delegate: TempViewDelegate?
 	
 	// MARK: - Inits
 	
