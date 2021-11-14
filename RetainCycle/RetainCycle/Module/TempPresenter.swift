@@ -9,7 +9,7 @@ protocol TempPresentationLogic: AnyObject {}
 
 final class TempPresenter: TempPresentationLogic {
 	
-	var viewController: TempDisplayLogic?
+	weak var viewController: TempDisplayLogic?
 
 }
 
